@@ -11,3 +11,36 @@ body {
       gap: 5px;
       height: 100vh;
     }
+
+ .grid-item {
+      background-color: #444;
+      color: white;
+      font-size: 4vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .item1 {
+      grid-column: 1 / span 4;
+    }
+
+    .item2 {
+      grid-row: 2 / span 4;
+    }
+
+    .item4 {
+      grid-column: span 2;
+    }
+
+    .item5 {
+      grid-column: span 2;
+    }
+
+    .item10 {
+      grid-column: span 3;
+    }
